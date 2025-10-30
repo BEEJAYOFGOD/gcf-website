@@ -75,7 +75,7 @@ const MobileNav = () => {
                 </SheetContent>
             </Sheet>
 
-            <span className="text-2xl animate-bounce">
+            <span className="text-xl animate-bounce">
                 Global Charity Foundation
             </span>
             <NavLink to="/" className="flex items-center justify-between ">
