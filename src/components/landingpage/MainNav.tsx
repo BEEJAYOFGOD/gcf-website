@@ -3,7 +3,7 @@ import gcfPng from "@/assets/gcf.png";
 
 const MainNav = () => {
     return (
-        <div className="hidden md:flex justify-between w-full items-center gap-4  ">
+        <div className="hidden md:flex justify-between w-full items-center gap-4">
             <NavLink className={"flex font-bold text-xl items-center"} to="/">
                 <img src={gcfPng} className={"h-16 w-16 -ml-4"} alt="fc logo" />
                 <span className="-ml-2">Global Charity Foundation</span>
