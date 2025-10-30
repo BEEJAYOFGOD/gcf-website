@@ -7,9 +7,9 @@ const Hero = () => {
         <section
             style={{
                 backgroundImage: `url(${heroBg})`,
-                backgroundPosition: "center",
+                backgroundPosition: "cover",
             }}
-            className={`border-2 border-black mx-auto  h-[calc(100vh-5.0rem)]`}
+            className={`border-2 border-black mx-auto bg-cover  h-[calc(100vh-5.0rem)]`}
         >
             <div className="container px-4 pt-48 md:px-0   flex flex-col justify-between md:pt-30 pb-12  min-h-full mx-auto">
                 <div className="">
