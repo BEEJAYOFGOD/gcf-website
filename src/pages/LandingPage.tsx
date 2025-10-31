@@ -1,4 +1,4 @@
-// import Hero from "@/components/landingpage/Hero";
+import Hero from "@/components/landingpage/Hero";
 import About from "@/components/landingpage/AboutUs";
 import { InfiniteScroll } from "@/components/carousel";
 
@@ -6,8 +6,8 @@ const LandingPage = () => {
     return (
         <>
             <main className="">
-                <div className="w-full min-h-screen border-red-500 border-4"></div>
-                {/* <Hero /> */}
+                {/* <div className="w-full h-dvh border-red-500 border-4"></div> */}
+                <Hero />
                 <About />
                 <InfiniteScroll
                     speed={20}
