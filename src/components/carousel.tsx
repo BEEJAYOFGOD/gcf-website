@@ -1,4 +1,4 @@
-import React, { type ReactElement, type CSSProperties } from "react";
+import { type ReactElement, type CSSProperties } from "react";
 
 interface InfiniteScrollProps {
     speed?: number;

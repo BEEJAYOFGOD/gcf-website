@@ -11,7 +11,7 @@ const Hero = () => {
             }}
             className={`border-2 border-black mx-auto bg-cover  h-[calc(100vh-5.0rem)]`}
         >
-            <div className="container px-4 md:px-8 relative   flex flex-col justify-center md:pt-30 pb-12  min-h-full mx-auto">
+            <div className="container px-4 md:px-8 relative   flex flex-col justify-center md:pt-30 pb-12 h-full mx-auto">
                 <div className="">
                     <h2 className="md:text-7xl text-[54px] md:text-left text-center font-semibold text-secondary leading-auto mb-4  max-w-2xl">
                         Inclusive care for children with special needs
