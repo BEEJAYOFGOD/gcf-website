@@ -6,7 +6,8 @@ const LandingPage = () => {
     return (
         <>
             <main className="">
-                <Hero />
+                <div className="w-full h-[calc(100vh-5.0rem)] border-red-500 border-4"></div>
+                {/* <Hero /> */}
                 <About />
                 <InfiniteScroll
                     speed={20}
