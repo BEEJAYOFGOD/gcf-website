@@ -20,9 +20,11 @@ const Hero = () => {
                         <Button className="w-fit rounded-sm bg-secondary px-8 text-lg text-black">
                             What we do
                         </Button>
-                        <Button className="bg-transparent text-white">
-                            <div className="bg-secondary p-2 rounded-full">
-                                <img src={playBtn} alt="play-icon" />
+                        <Button className="bg-transparent text-white cursor-pointer">
+                            <div className="animate-ping">
+                                <div className="bg-secondary p-2 rounded-full flex justify-center items-center animate-pulse">
+                                    <img src={playBtn} alt="play-icon" />
+                                </div>
                             </div>
                             Play Now
                         </Button>
