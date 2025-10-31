@@ -18,6 +18,13 @@ import gcfPng from "@/assets/gcf.png";
 const MobileNav = () => {
     return (
         <div className="lg:hidden  w-full   justify-between flex items-center ">
+            <NavLink to="/" className="flex items-center justify-between ">
+                <img src={gcfPng} alt="fc logo" className="w-18 h-18" />
+            </NavLink>
+            <span className="text-lg  text-center  animate-bounce">
+                Global Charity Foundation
+            </span>
+
             <Sheet>
                 <SheetTrigger asChild>
                     <AlignJustify />
@@ -74,13 +81,6 @@ const MobileNav = () => {
                     </SheetFooter> */}
                 </SheetContent>
             </Sheet>
-
-            <span className="text-lg  text-center  animate-bounce">
-                Global Charity Foundation
-            </span>
-            <NavLink to="/" className="flex items-center justify-between ">
-                <img src={gcfPng} alt="fc logo" className="w-18 h-18" />
-            </NavLink>
         </div>
     );
 };
