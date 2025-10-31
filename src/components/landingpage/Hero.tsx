@@ -9,7 +9,7 @@ const Hero = () => {
                 backgroundImage: `url(${heroBg})`,
                 backgroundPosition: "center",
             }}
-            className={`border-2 border-black mx-auto bg-cover  h-screen`}
+            className={`border-2 border-black mx-auto bg-cover  h-[calc(100vh-5.0rem)]`}
         >
             <div className="container px-4 md:px-8 relative   flex flex-col justify-center md:pt-30 pb-12 h-full mx-auto">
                 <div className="">
