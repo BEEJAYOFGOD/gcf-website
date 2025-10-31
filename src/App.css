@@ -15,6 +15,10 @@ html,body{
 
 }
 
+body{
+    border: 2px solid yellow
+}
+
 @custom-variant dark (&:is(.dark *));
 
 
