@@ -13,14 +13,14 @@ const Hero = () => {
         >
             <div className="container px-4 md:px-8 relative   flex flex-col justify-center md:pt-30 pb-12 h-full mx-auto">
                 <div className="">
-                    <h2 className="md:text-7xl text-[54px] md:text-left text-center font-semibold text-secondary leading-auto mb-4  max-w-2xl">
+                    <h2 className="md:text-7xl text-[54px] leading-[1.4] md:text-left text-center font-semibold text-secondary leading-auto mb-4  max-w-2xl">
                         Inclusive care for children with special needs
                     </h2>
                     <div className="flex items-center w-full justify-center md:justify-start mt-8 md:mt-0">
                         <Button className="w-fit rounded-sm bg-secondary px-8 text-lg text-black">
                             What we do
                         </Button>
-                        <Button className="bg-transparent">
+                        <Button className="bg-transparent text-white">
                             <div className="bg-secondary p-2 rounded-full">
                                 <img src={playBtn} alt="play-icon" />
                             </div>
