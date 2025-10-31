@@ -1,8 +1,46 @@
+import { Button } from "../ui/button";
+import AboutPic from "@/assets/landingaboutPic.png";
 const About = () => {
     return (
-        <section>
-            <h3>KNOW ABOUT US</h3>
-            <p>We provide a place for children with special needs </p>
+        <section className="p-4">
+            <div className="container flex md:flex-row flex-col  px-4 justify-center">
+                <div className="md:flex hidden">
+                    <hr className="bg-black h-px w-24 mt-28 mr-2" />
+                </div>
+                <div className="flex md:justify-between md:flex-row items-center  gap-4 flex-col flex-1 ">
+                    <div>
+                        <div className="text-center md:text-left space-y-4">
+                            <h3
+                                className="after:h-px after:absolute after:bottom-0
+                        md:after:hidden  after:w-1/2 after:bg-black flex flex-col items-center relative md:block text-3xl my-4"
+                            >
+                                KNOW ABOUT US
+                            </h3>
+                            <p className="md:text-6xl text-3xl font-bold md:max-w-2xl">
+                                We provide a place for
+                                <br className="md:flex hidden" /> children with
+                                special needs
+                            </p>
+                            <p className="md:max-w-md mx-auto md:mx-0 md:text-base text-sm">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Laborum illum modi obcaecati
+                                suscipit praesentium repudiandae nobis at
+                                explicabo vitae quasi minus vero numquam est
+                                maxime, eligendi perspiciatis tempora
+                                consequatur asperiores?
+                            </p>
+
+                            <Button className="bg-[#F2C94C] px-24 py-8 text-2xl">
+                                Learn More
+                            </Button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img className="md:w-xl w-full" src={AboutPic} alt="" />
+                    </div>
+                </div>
+            </div>
         </section>
     );
 };

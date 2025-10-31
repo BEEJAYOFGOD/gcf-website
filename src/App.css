@@ -142,3 +142,8 @@
         transform: translateX(0);
     }
 }
+
+
+.container{
+    margin: 0 auto;
+}

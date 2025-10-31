@@ -17,7 +17,7 @@ import gcfPng from "@/assets/gcf.png";
 
 const MobileNav = () => {
     return (
-        <div className="md:hidden  w-full   justify-between flex items-center ">
+        <div className="lg:hidden  w-full   justify-between flex items-center ">
             <Sheet>
                 <SheetTrigger asChild>
                     <AlignJustify />
