@@ -6,7 +6,7 @@ const LandingPage = () => {
     return (
         <>
             <main className="">
-                <div className="w-full h-screen border-red-500 border-4"></div>
+                <div className="w-full h-dvh border-red-500 border-4"></div>
                 {/* <Hero /> */}
                 <About />
                 <InfiniteScroll
