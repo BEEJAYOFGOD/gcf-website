@@ -7,7 +7,7 @@ interface InfiniteScrollProps {
     translateMode?: "items" | "track";
     reverse?: boolean;
     paused?: boolean;
-    renderItem?: (index: number) => ReactElement;
+    renderItem?: (_index: number) => ReactElement;
     className?: string;
     containerStyle?: CSSProperties;
 }
@@ -126,7 +126,7 @@ export const InfiniteScroll = ({
                                         direction === "vertical"
                                             ? "100%"
                                             : "auto",
-                                    aspectRatio: "4 / 3",
+                                    aspectRatio: "1 / 1",
                                     ["--index" as string]: index,
                                     ...(translateMode === "items" && {
                                         ["--duration" as string]: `${speed}s`,

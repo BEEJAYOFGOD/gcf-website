@@ -1,11 +1,14 @@
 import { Button } from "../ui/button";
 import AboutPic from "@/assets/landingaboutPic.png";
+import { InfiniteScroll } from "../carousel";
+import gcfLogo from "@/assets/gcf.png";
+
 const About = () => {
     return (
         <section className="p-4">
             <div className="container flex md:flex-row flex-col  px-4 justify-center ">
                 <div className="md:flex hidden">
-                    <hr className="bg-black h-px w-24 mt-44 mr-2" />
+                    <hr className="bg-black h-px w-24 mt-58 mr-2" />
                 </div>
                 <div className="flex md:justify-between md:flex-row items-center  gap-4 flex-col flex-1 md:my-12 ">
                     <div>
@@ -40,6 +43,26 @@ const About = () => {
                         <img className="md:w-xl w-full" src={AboutPic} alt="" />
                     </div>
                 </div>
+            </div>
+
+            <div className="container">
+                <InfiniteScroll
+                    speed={20}
+                    itemCount={10}
+                    direction="horizontal"
+                    translateMode="items"
+                    className="w-full h-56 "
+                    renderItem={() => (
+                        <div className="w-12 flex items-center gap-2 h-12 ">
+                            <img
+                                className="w-12 h-12"
+                                src={gcfLogo}
+                                alt="gcf"
+                            />
+                            <p className="text-2xl">GCF</p>
+                        </div>
+                    )}
+                />
             </div>
         </section>
     );

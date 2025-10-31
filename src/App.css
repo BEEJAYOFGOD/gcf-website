@@ -15,6 +15,11 @@ html,body{
 
 }
 
+/* In globals.css - Forces consistent sizing */
+html {
+  font-size: 12px !important; /* Override browser settings */
+}
+
 
 
 body {

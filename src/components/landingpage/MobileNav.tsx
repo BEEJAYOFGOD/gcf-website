@@ -24,7 +24,7 @@ const MobileNav = () => {
                 </SheetTrigger>
                 <SheetContent
                     side="left"
-                    className="bg-white w-[250px] text-black transition-transform duration-300 ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left z-100"
+                    className="bg-white w-[250px] text-black transition-transform duration-300 ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left "
                 >
                     <NavLink className={"border-b-2 px-2"} to="/">
                         <img
