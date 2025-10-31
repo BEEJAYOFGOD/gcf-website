@@ -1,4 +1,4 @@
-import Hero from "@/components/landingpage/Hero";
+// import Hero from "@/components/landingpage/Hero";
 import About from "@/components/landingpage/AboutUs";
 import { InfiniteScroll } from "@/components/carousel";
 
