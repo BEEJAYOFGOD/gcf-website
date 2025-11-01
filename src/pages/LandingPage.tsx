@@ -1,6 +1,7 @@
 import Hero from "@/components/landingpage/Hero";
 import About from "@/components/landingpage/AboutUs";
 import Whatwedo from "@/components/landingpage/Whatwedo";
+import Projects from "@/components/landingpage/Projects";
 
 const LandingPage = () => {
     return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
                 <Hero />
                 <About />
                 <Whatwedo />
+                <Projects />
             </main>
         </>
     );

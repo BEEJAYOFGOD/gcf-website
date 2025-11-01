@@ -43,10 +43,10 @@ const Whatwedo = () => {
                         <p className=" text-left md:text-left after:flex md:after:hidden after:h-px text-2xl after:w-full after:bg-black flex relative flex-col w-fit md:m-0 mx-auto">
                             WHAT WE DO
                         </p>
-                        <h3 className="text-5xl md:text-left text-center  mx-auto md:mx-0 font-bold max-w-lg md:my-4">
+                        <h3 className="md:text-5xl md:text-left text-center mx-auto md:mx-0 w-fit font-bold md:max-w-lg  md:my-4">
                             Some services we provide for our children
                         </h3>
-                        <p className="w-xl mt-8 mb-4">
+                        <p className="md:w-xl w-sm mt-8 mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Quas tempore natus enim voluptates? Iste
                             voluptatibus molestias laboriosam et rem a quisquam
@@ -55,10 +55,10 @@ const Whatwedo = () => {
                         </p>
                         <div className="px-4 border-l space-y-4">
                             {services.map((service) => (
-                                <div className="flex gap-4">
-                                    <div className="p-2 rounded-md bg-black h-fit w-fit">
+                                <div className="flex  items-start gap-4">
+                                    <div className="p-2 rounded-md bg-black w-24 md:w-fit aspect-square">
                                         <img
-                                            className="w-8 h-8"
+                                            className="w-full h-full aspect-square"
                                             src={service.icon}
                                             alt=""
                                         />
@@ -67,7 +67,7 @@ const Whatwedo = () => {
                                         <p className="font-bold text-lg">
                                             {service.title}
                                         </p>
-                                        <p className="w-md">
+                                        <p className="md:w-md w-fit ">
                                             {service.explanation}
                                         </p>
                                     </div>
