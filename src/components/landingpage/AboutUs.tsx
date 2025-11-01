@@ -6,16 +6,16 @@ import gcfLogo from "@/assets/gcf.png";
 const About = () => {
     return (
         <section className="p-4">
-            <div className="container flex md:flex-row flex-col  px-4 justify-center ">
+            <div className="container flex md:flex-row flex-col   px-4 justify-center ">
                 <div className="md:flex hidden">
-                    <hr className="bg-black h-px w-24 mt-58 mr-2" />
+                    <hr className="bg-black h-px w-24 mt-46 mr-2 border border-black" />
                 </div>
                 <div className="flex md:justify-between md:flex-row items-center  gap-4 flex-col flex-1 md:my-12 ">
                     <div>
                         <div className="text-center md:text-left space-y-4">
                             <h3
-                                className="after:h-px after:absolute after:bottom-0
-                        md:after:hidden after:w-1/2 after:bg-black flex flex-col items-center relative md:block md:text-3xl my-4  text-2xl"
+                                className="after:h-px  w-fit md:w-auto mx-auto after:absolute after:bottom-0
+                        md:after:hidden after:w-full after:bg-black flex flex-col items-center relative md:block md:text-3xl my-4  text-2xl"
                             >
                                 KNOW ABOUT US
                             </h3>
@@ -40,12 +40,12 @@ const About = () => {
                     </div>
 
                     <div>
-                        <img className="md:w-xl w-full" src={AboutPic} alt="" />
+                        <img className="md:w-lg w-full" src={AboutPic} alt="" />
                     </div>
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container grayscale-100">
                 <InfiniteScroll
                     speed={20}
                     itemCount={10}
@@ -53,9 +53,9 @@ const About = () => {
                     translateMode="items"
                     className="w-full h-56 "
                     renderItem={() => (
-                        <div className="w-12 flex items-center gap-2 h-12 ">
+                        <div className="w-12 h-12 md:w-36 md:h-36 flex items-center gap-1  ">
                             <img
-                                className="w-12 h-12"
+                                className="w-12 md:w-16 md:h-16 h-12"
                                 src={gcfLogo}
                                 alt="gcf"
                             />
