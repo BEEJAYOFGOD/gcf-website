@@ -35,14 +35,14 @@ const Projects = () => {
                         <h3 className="text-left md:text-left after:flex md:after:hidden after:h-px text-2xl after:w-full after:bg-black flex relative flex-col w-fit md:m-0 mx-auto">
                             PROJECTS WE DO
                         </h3>
-                        <p className="md:text-5xl w-fit text-2xl font-bold text-center mx-auto md:w-xl">
+                        <p className="md:text-5xl w-fit text-2xl md:text-left font-bold text-center mt-4 mx-auto md:w-xl">
                             We are creating a place where children with special
                             needs can thrive
                         </p>
                     </div>
                 </div>
 
-                <div className="flex md:flex-row flex-col gap-8 mt-4">
+                <div className="flex md:flex-row flex-col gap-8 mt-8">
                     {projects.map((project) => (
                         <article
                             style={{

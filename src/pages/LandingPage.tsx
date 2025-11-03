@@ -2,6 +2,8 @@ import Hero from "@/components/landingpage/Hero";
 import About from "@/components/landingpage/AboutUs";
 import Whatwedo from "@/components/landingpage/Whatwedo";
 import Projects from "@/components/landingpage/Projects";
+import Donations from "@/components/landingpage/Donations";
+import CTA from "@/components/landingpage/CTA";
 
 const LandingPage = () => {
     return (
@@ -12,6 +14,8 @@ const LandingPage = () => {
                 <About />
                 <Whatwedo />
                 <Projects />
+                <Donations />
+                <CTA />
             </main>
         </>
     );
