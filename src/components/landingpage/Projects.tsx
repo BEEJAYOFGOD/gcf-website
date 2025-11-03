@@ -49,11 +49,11 @@ const Projects = () => {
                                 backgroundImage: `url(${project.img})`,
                                 backgroundPosition: "center",
                             }}
-                            className="rounded-xl space-y-8 flex flex-col px-12 py-12 relative z-2  justify-between"
+                            className="rounded-xl md:space-y-8 flex flex-col md:px-12 p-6 md:py-12 relative z-2  justify-between"
                         >
                             <div className="absolute inset-0 h-full w-full bg-black/50 z-1 rounded-xl" />
                             <div className="z-2 ">
-                                <p className="text-white text-4xl z-2">
+                                <p className="text-white md:text-4xl text-3xl  z-2">
                                     {project.title}
                                 </p>
                                 <p className="mb-34 text-white z-2">

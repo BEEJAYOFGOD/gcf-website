@@ -5,7 +5,7 @@ const Donations = () => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
     useEffect(() => {
-        const duration = 2000; // 2 seconds
+        const duration = 500; // 2 seconds
         const startTime = Date.now();
 
         const animate = () => {

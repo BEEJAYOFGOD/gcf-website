@@ -12,11 +12,11 @@ const CTA = () => {
                     You can contribute to provide a place for children with
                     special needs!
                 </p>
-                <div className="flex gap-4">
-                    <Button className="bg-[#F2C94C]">
+                <div className="flex gap-4 ">
+                    <Button className="bg-[#F2C94C] text-xl px-8">
                         Join as a Volunteer
                     </Button>
-                    <Button className="flex-1 ">Donate</Button>
+                    <Button className="flex-1 text-xl px-8">Donate</Button>
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ import gcfLogo from "@/assets/gcf.png";
 const About = () => {
     return (
         <section className="p-4">
-            <div className="container flex md:flex-row flex-col   px-4 justify-center ">
+            <div className="container flex md:flex-row flex-col   px-4 md:px-8 justify-center ">
                 <div className="md:flex hidden">
                     <hr className="bg-black h-px w-24 mt-46 mr-2 border border-black" />
                 </div>

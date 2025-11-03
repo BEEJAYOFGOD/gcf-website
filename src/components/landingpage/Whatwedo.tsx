@@ -43,10 +43,10 @@ const Whatwedo = () => {
                         <p className=" text-left md:text-left after:flex md:after:hidden after:h-px text-2xl after:w-full after:bg-black flex relative flex-col w-fit md:m-0 mx-auto">
                             WHAT WE DO
                         </p>
-                        <h3 className="md:text-5xl md:text-left text-center mx-auto md:mx-0 w-fit font-bold md:max-w-lg  md:my-4">
+                        <h3 className="md:text-5xl md:text-left text-center mx-auto md:mx-0  font-bold md:max-w-lg  md:my-4">
                             Some services we provide for our children
                         </h3>
-                        <p className="md:w-xl w-sm mt-8 mb-4">
+                        <p className="md:w-xl w-full mt-8 mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Quas tempore natus enim voluptates? Iste
                             voluptatibus molestias laboriosam et rem a quisquam
@@ -67,7 +67,7 @@ const Whatwedo = () => {
                                         <p className="font-bold text-lg">
                                             {service.title}
                                         </p>
-                                        <p className="md:w-md w-fit ">
+                                        <p className="md:w-md  ">
                                             {service.explanation}
                                         </p>
                                     </div>

@@ -35,7 +35,7 @@ export const InfiniteScroll = ({
 
     return (
         <div
-            className={`relative overflow-hidden ${className}`}
+            className={`relative container md:px-8 px-4 overflow-hidden ${className}`}
             style={
                 {
                     ...containerStyle,
