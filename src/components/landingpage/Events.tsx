@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 const Events = () => {
     return (
         <section>
-            <div className="container mx-auto px-6">
+            {/* <div className="container mx-auto px-6">
                 <h3 className="text-3xl font-bold py-6">Our Events</h3>
                 <div className="flex justify-between md:flex-row flex-col gap-8">
                     <div className="flex gap-4  flex-1 bg-[#F2C94C] rounded-lg p-6">
@@ -47,7 +47,7 @@ const Events = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <div>
                 <div>
                     <p>13</p>

@@ -8,15 +8,17 @@ const CTA = () => {
                 className="container mx-auto   bg-cover h-[350px] flex flex-col justify-center items-center bg-right  rounded-3xl space-y-5"
                 style={{ backgroundImage: `url(${cta_bg})` }}
             >
-                <p className="text-white md:text-5xl text-3xl md:w-4xl text-center">
+                <p className="text-white md:text-5xl text-3xl mb-8 w-8/10 md:w-4xl text-center">
                     You can contribute to provide a place for children with
                     special needs!
                 </p>
-                <div className="flex gap-4 ">
-                    <Button className="bg-[#F2C94C] text-xl px-8">
+                <div className="flex md:items-center gap-4 md:flex-row flex-col">
+                    <Button className="bg-[#F2C94C] md:text-xl text-lg px-8 md:py-8 py-8">
                         Join as a Volunteer
                     </Button>
-                    <Button className="flex-1 text-xl px-8">Donate</Button>
+                    <Button className="flex-1 bg-[#F2C94C] md:text-xl text-lg px-16 md:py-8 py-4">
+                        Donate
+                    </Button>
                 </div>
             </div>
         </section>

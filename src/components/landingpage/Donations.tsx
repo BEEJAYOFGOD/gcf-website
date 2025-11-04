@@ -120,7 +120,7 @@ const Donations = () => {
                                     onMouseLeave={() => setHoveredIndex(null)}
                                 >
                                     <div
-                                        className="w-4 h-4 rounded-sm flex-shrink-0 transition-transform duration-300"
+                                        className="w-4 h-4 rounded-sm shrink-0 transition-transform duration-300"
                                         style={{
                                             backgroundColor: item.color,
                                             transform:
